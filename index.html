@@ -44,7 +44,7 @@
             fetch("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=7ed7e3a9e993fe10896582f9346b84dd")
                 .then(response => response.json())
                 .then(data => setData(data))
-                .catch(err => alert("Wrong City Name"))
+                //.catch(err => alert("Wrong City Name"))
         }
 
         // for setting temperature
